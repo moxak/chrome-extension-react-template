@@ -15,7 +15,7 @@ const manifest = defineManifest({
   icons: {},
   host_permissions: ["*://*/*"],
   action: {
-    default_popup: "public/index.html",
+    default_popup: "index.html",
   },
   background: { service_worker: "src/background/index.ts" },
   content_scripts: [
